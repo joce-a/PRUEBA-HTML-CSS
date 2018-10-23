@@ -1,0 +1,169 @@
+body {
+	font-family: 'Poppins', sans-serif;
+	padding-top: 70px; 
+	background: #C1C8E4;
+}
+
+/*NAV*/
+.nyc-nav {
+	padding: 20px 40px;
+	background: #C1C8E4;
+	border: none;
+	margin: 0;
+	border-radius: 0;
+}
+.navbar-brand .nyc-nav__logo_I {
+	width: 60px;
+}
+.navbar-brand .nyc-nav__logo_II {
+	width: 400px;
+}
+.navbar-default .navbar-nav>li>a {
+	color: #1a3c99;
+	font-size: 1.2em;
+	padding-top: 22px;
+}
+@media screen and (max-width: 500px) {
+	body {
+		background: #C1C8E4;
+	}
+	.nyc-nav {
+		padding: 0;
+	}
+}
+
+/*NOSOTROS*/
+.nyc-nosotros {
+	background-color: #C1C8E4;
+}
+/*introducción*/
+.nyc-nosotros__head {
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #1a3c99;
+	border-bottom-color: #1a3c99;
+	background-color: #C1C8E4;
+	text-align: center;
+	padding: 50px 50px;
+	margin-top: 30px;
+}
+.nyc-nosotros__head_h {
+	color: #1a3c99
+}
+.nyc-nosotros__img {
+	width: 100%;
+	padding: 20px 0;
+}
+.nyc-nosotros__txt_p {
+	color: white;
+	font-size: 1.5em;
+}
+
+/*organización fundación*/
+.nyc-nosotros__txt_col_h {
+	color: #1a3c99;
+	font-size: 1.5em;
+	text-align: center;
+}
+.nyc-nosotros__txt_col_p {
+	color: white;
+}
+.nyc-nosotros__txt_col_ul {
+	color: white;
+}
+
+@media screen and (max-width: 500px) {
+	.nyc-nosotros__head {
+		padding: 30px 30px;
+		margin-top: 30px;
+		border-width: 1.5px;
+	}
+	.nyc-nosotros__head_h {
+		font-size: 1.7em;
+	}
+	.nyc-nosotros__txt_p {
+		font-size: 1.2em;
+	}
+}
+
+/*inscripciones*/
+.nyc-extra__msj {
+	padding: 20px 0;
+}
+.nyc-extra__msj_circle {
+	width: 150px;
+	height: 150px;
+	background-color: #5AB9EA;
+	border-style: solid;
+	border-width: 5px;
+	border-radius: 200px;
+	border-color: #84CEEB;
+	margin: auto;
+}
+.nyc-extra__msj_circle:hover {opacity: 0.6}
+
+.nyc-extra__msj_icon {
+	margin: auto;
+	width: 70px;
+	padding-top: 35px;
+}
+
+.nyc-extra__msj_txt {
+	color: #1a3c99;
+	text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+	.nyc-extra__msj_circle {
+		width: 120px;
+		height: 120px;
+		border-radius: 170px;
+	}
+	.nyc-extra__msj_icon {
+		margin: auto;
+		width: 50px;
+		padding-top: 30px;
+	}
+	.nyc-extra__msj_txt {
+		font-size: 1.5em;
+	}
+}
+
+/*FOOTER*/
+.nyc-footer {
+	background: #1a3c99;
+}
+.nyc-footer__container {
+	background-color: #1a3c99;
+	padding: 50px 0;
+}
+.nyc-footer__txt_form_navbar {
+	padding: 0;
+}
+.nyc-footer__txt {
+	/*margin-top: 60px;*/
+	color: white;
+}
+.nyc-footer__txt_contact {
+	clear: both;
+	padding-top: 40px;
+}
+.nyc-footer__brand_img {
+	padding-top: 35px;
+}
+
+@media screen and (max-width: 500px) {
+	.nyc-footer__txt_form_navbar {
+		padding: 10px 15px;
+	}
+	.nyc-footer__txt_form_control {
+		width: 70%;
+		border: none;
+	}
+	.nyc-footer__txt_contact {
+		padding-top: 0;
+	}
+	.nyc-footer__brand_img {
+		padding-top: 20px;
+	}
+}

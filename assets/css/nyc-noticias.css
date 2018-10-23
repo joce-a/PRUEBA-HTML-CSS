@@ -1,0 +1,189 @@
+body {
+	font-family: 'Poppins', sans-serif;
+	padding-top: 70px; 
+	background: #C1C8E4;
+}
+
+/*NAV*/
+.nyc-nav {
+	padding: 20px 40px;
+	background: #C1C8E4;
+	border: none;
+	margin: 0;
+	border-radius: 0;
+}
+.navbar-brand .nyc-nav__logo_I {
+	width: 60px;
+}
+.navbar-brand .nyc-nav__logo_II {
+	width: 400px;
+}
+.navbar-default .navbar-nav>li>a {
+	color: #1a3c99;
+	font-size: 1.2em;
+	padding-top: 22px;
+}
+@media screen and (max-width: 500px) {
+	body {
+		background: #C1C8E4;
+	}
+	.nyc-nav {
+		padding: 0;
+	}
+}
+
+/*NOTICIAS LEFT*/
+.nyc-noticias__post {
+	background-color: #C1C8E4;
+	padding: 50px;
+}
+.nyc-noticias__post_h {
+	color: #1a3c99;
+}
+.nyc-noticias__post_fecha {
+	color: #5AB9EA;
+}
+.nyc-noticias__post_p {
+	color: #FFF;
+	font-style: italic;
+	font-size: 1.3em;
+}
+.nyc-noticias__post_img {
+	width: 100%
+}
+.nyc-noticias__post_txt {
+	padding-top: 20px;
+	color: #FFF;
+	font-size: 1.2em;
+}
+
+/*NOTICIAS RIGHT*/
+.nyc-noticias__thumb {
+	background-color: #C1C8E4;
+	padding: 50px;
+}
+.nyc-noticias__thumb_head {
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #1a3c99;
+	border-bottom-color: #1a3c99;
+	background-color: #C1C8E4;
+	text-align: center;
+	padding: 20px 50px;
+	margin: 30px 0 50px;
+}
+.nyc-noticias__thumb_head_h {
+	color: #1a3c99
+}
+.nyc-thumb__post:hover {opacity: 0.6}
+
+.nyc-thumb__post_h {
+	color: #1a3c99;
+	padding-bottom: 20px;
+}
+.nyc-noticias__post_fecha {
+	padding-left: 0;
+}
+.nyc-noticias__post_fecha_li{
+	list-style-type: none;
+	display: inline-block;
+}
+.nyc-noticias__post_fecha_img {
+	width: 20px;
+}
+
+@media screen and (max-width: 500px) {
+	.nyc-noticias__post {
+		padding-bottom: 0;
+	}
+	.nyc-noticias__thumb {
+		padding-top: 0;
+	}
+	.nyc-noticias__post_p {
+		font-size: 1.1em;
+	}
+	.nyc-noticias__post_txt {
+		font-size: 0.90em;
+	}
+}
+
+/*donaciones*/
+.nyc-extra__msj {
+	padding: 20px 0;
+	background-color: #8860d0;
+}
+.nyc-extra__msj_circle {
+	width: 100px;
+	height: 100px;
+	background-color: #5AB9EA;
+	border-style: solid;
+	border-width: 5px;
+	border-radius: 150px;
+	border-color: #84CEEB;
+	margin: auto;
+}
+.nyc-extra__msj_circle:hover {opacity: 0.6}
+
+.nyc-extra__msj_icon {
+	margin: auto;
+	width: 40px;
+	padding-top: 30px;
+}
+.nyc-extra__msj_txt {
+	color: #FFF;
+	text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+	.nyc-extra__msj_circle {
+		width: 100px;
+		height: 100px;
+		border-radius: 150px;
+	}
+	.nyc-extra__msj_icon {
+		width: 40px;
+		padding-top: 30px;
+	}
+	.nyc-extra__msj_txt {
+		font-size: 1.5em;
+	}
+}
+
+/*FOOTER*/
+.nyc-footer {
+	background: #1a3c99;
+}
+.nyc-footer__container {
+	background-color: #1a3c99;
+	padding: 50px 0;
+}
+.nyc-footer__txt_form_navbar {
+	padding: 0;
+}
+.nyc-footer__txt {
+	/*margin-top: 60px;*/
+	color: white;
+}
+.nyc-footer__txt_contact {
+	clear: both;
+	padding-top: 40px;
+}
+.nyc-footer__brand_img {
+	padding-top: 35px;
+}
+
+@media screen and (max-width: 500px) {
+	.nyc-footer__txt_form_navbar {
+		padding: 10px 15px;
+	}
+	.nyc-footer__txt_form_control {
+		width: 70%;
+		border: none;
+	}
+	.nyc-footer__txt_contact {
+		padding-top: 0;
+	}
+	.nyc-footer__brand_img {
+		padding-top: 20px;
+	}
+}
