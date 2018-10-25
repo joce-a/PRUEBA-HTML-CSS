@@ -18,30 +18,26 @@ body {
 .navbar-brand .nyc-nav__logo_II {
 	width: 400px;
 }
-.navbar-default .navbar-nav>li>a {
+.nyc-nav .nyc-nav__menu_right>li>a {
 	color: #1a3c99;
 	font-size: 1.2em;
 	padding-top: 22px;
 }
 @media screen and (max-width: 500px) {
-	body {
-		background: #C1C8E4;
-	}
 	.nyc-nav {
 		padding: 0;
 	}
 }
 
 /*NOSOTROS*/
+/*titulo*/
 .nyc-nosotros {
 	background-color: #C1C8E4;
 }
 /*introducción*/
 .nyc-nosotros__head {
-	border-top-style: solid;
-	border-bottom-style: solid;
-	border-top-color: #1a3c99;
-	border-bottom-color: #1a3c99;
+	border-top: solid #1a3c99;
+	border-bottom: solid #1a3c99;
 	background-color: #C1C8E4;
 	text-align: center;
 	padding: 50px 50px;
@@ -55,10 +51,9 @@ body {
 	padding: 20px 0;
 }
 .nyc-nosotros__txt_p {
-	color: white;
+	color: #FFF;
 	font-size: 1.5em;
 }
-
 /*organización fundación*/
 .nyc-nosotros__txt_col_h {
 	color: #1a3c99;
@@ -66,10 +61,10 @@ body {
 	text-align: center;
 }
 .nyc-nosotros__txt_col_p {
-	color: white;
+	color: #FFF;
 }
 .nyc-nosotros__txt_col_ul {
-	color: white;
+	color: #FFF;
 }
 
 @media screen and (max-width: 500px) {
@@ -87,44 +82,41 @@ body {
 }
 
 /*inscripciones*/
-.nyc-extra__msj {
+.nyc-nosotros__msj {
 	padding: 20px 0;
 }
-.nyc-extra__msj_circle {
+.nyc-nosotros__msj_circle {
 	width: 150px;
 	height: 150px;
 	background-color: #5AB9EA;
-	border-style: solid;
-	border-width: 5px;
-	border-radius: 200px;
-	border-color: #84CEEB;
+	border: solid 5px #84CEEB;
+	border-radius: 200px;;
 	margin: auto;
 }
-.nyc-extra__msj_circle:hover {opacity: 0.6}
+.nyc-nosotros__msj_circle:hover {opacity: 0.6}
 
-.nyc-extra__msj_icon {
+.nyc-nosotros__msj_icon {
 	margin: auto;
 	width: 70px;
 	padding-top: 35px;
 }
-
-.nyc-extra__msj_txt {
+.nyc-nosotros__msj_txt {
 	color: #1a3c99;
 	text-align: center;
 }
 
 @media screen and (max-width: 500px) {
-	.nyc-extra__msj_circle {
+	.nyc-nosotros__msj_circle {
 		width: 120px;
 		height: 120px;
 		border-radius: 170px;
 	}
-	.nyc-extra__msj_icon {
+	.nyc-nosotros__msj_icon {
 		margin: auto;
 		width: 50px;
 		padding-top: 30px;
 	}
-	.nyc-extra__msj_txt {
+	.nyc-nosotros__msj_txt {
 		font-size: 1.5em;
 	}
 }
@@ -137,33 +129,37 @@ body {
 	background-color: #1a3c99;
 	padding: 50px 0;
 }
-.nyc-footer__txt_form_navbar {
+.nyc-footer__navbar {
 	padding: 0;
 }
 .nyc-footer__txt {
-	/*margin-top: 60px;*/
-	color: white;
+	color: #FFF;
+}
+.nyc-footer__txt_form_h {
+	margin-top: 0;
 }
 .nyc-footer__txt_contact {
 	clear: both;
-	padding-top: 40px;
+	padding-top: 20px;
 }
-.nyc-footer__brand_img {
-	padding-top: 35px;
+.nyc-footer__rrss {
+	width: 70%;
+	padding-top: 20px;
 }
+.nyc-footer__rrss_icon:hover {opacity: 0.6}
 
 @media screen and (max-width: 500px) {
-	.nyc-footer__txt_form_navbar {
+	.nyc-footer__txt {
+		margin-top: 40px; 
+	}
+	.nyc-footer__navbar {
 		padding: 10px 15px;
 	}
-	.nyc-footer__txt_form_control {
+	..nyc-footer__navbar_control {
 		width: 70%;
 		border: none;
 	}
 	.nyc-footer__txt_contact {
 		padding-top: 0;
-	}
-	.nyc-footer__brand_img {
-		padding-top: 20px;
 	}
 }

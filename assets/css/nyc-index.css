@@ -17,11 +17,12 @@ body {
 .navbar-brand .nyc-nav__logo_II {
 	width: 400px;
 }
-.navbar-default .navbar-nav>li>a {
+.nyc-nav .nyc-nav__menu_right>li>a {
 	color: #1a3c99;
 	font-size: 1.2em;
 	padding-top: 22px;
 }
+
 @media screen and (max-width: 500px) {
 	body {
 		background: #C1C8E4;
@@ -32,6 +33,7 @@ body {
 }
 
 /*INDEX*/
+/*hero*/
 .nyc-hero {
 	background-color: #C1C8E4;
 }
@@ -39,10 +41,8 @@ body {
 	width: 100%;
 }
 .nyc-hero__txt {
-	border-top-style: solid;
-	border-bottom-style: solid;
-	border-top-color: #1a3c99;
-	border-bottom-color: #1a3c99;
+	border-top: solid #1a3c99;
+	border-bottom: solid #1a3c99;
 	background-color: #C1C8E4;
 	text-align: center;
 	color: white;
@@ -52,8 +52,36 @@ body {
 .nyc-hero__txt_h {
 	color: #1a3c99
 }
-.nyc-thumbnails__txt_btn {
-	background: #5AB9EA;
+.nyc-hero__txt_p {
+	font-size: 1.5em;
+}
+/*servicios*/
+.nyc-hero__servicios {
+	border-bottom: solid #1a3c99;
+	background-color: #C1C8E4;
+	text-align: center;
+	color: white;
+	padding: 50px 0;
+	margin: auto;
+}
+.nyc-hero__servicios_btn_circle {
+	width: 150px;
+	height: 150px;
+	background-color: #5AB9EA;
+	border: solid 5px #1a3c99;
+	border-radius: 200px;
+	margin: auto;
+}
+.nyc-hero__servicios_btn_circle:hover {opacity: 0.6}
+
+.nyc-hero__servicios_btn_icon {
+	margin: auto;
+	width: 70px;
+	padding-top: 35px;
+}
+.nyc-hero__servicios_btn_txt {
+	color: #1a3c99;
+	text-align: center;
 }
 
 @media screen and (max-width: 500px) {
@@ -63,12 +91,29 @@ body {
 	.nyc-hero__txt {
 		border-width: 2px;
 	}
+	.nyc-hero__servicios_btn_circle {
+		width: 120px;
+		height: 120px;
+		border-radius: 170px;
+	}
+	.nyc-hero__servicios_btn_icon {
+		margin: auto;
+		width: 50px;
+		padding-top: 30px;
+	}
+	.nyc-hero__servicios_btn_txt {
+		font-size: 1.2em;
+	}
 }
-
-/*THUMBNAILS*/
+/*THUMBNAILS NOTICIAS*/
 .nyc-thumbnails {
 	background: #C1C8E4;
 	padding: 30px 100px;
+}
+.nyc-thumbnails__head {
+	color: #1a3c99;
+	text-align: center;
+	margin-bottom: 50px;
 }
 .nyc-thumbnails__col {
 	padding: 0 100px 50px;
@@ -93,9 +138,12 @@ body {
 	.nyc-thumbnails__col_p {
 		display: none;
 	}
+	.nyc-hero__txt_p {
+		font-size: 1em;
+	}
 }
 
-/*EXTRA*/
+/*EXTRA (voluntariado y donaciones)*/
 .nyc-extra {
 	background: #8860d0;
 }
@@ -107,10 +155,8 @@ body {
 	width: 150px;
 	height: 150px;
 	background-color: #5AB9EA;
-	border-style: solid;
-	border-width: 5px;
+	border: solid 5px #84CEEB;
 	border-radius: 200px;
-	border-color: #84CEEB;
 	margin: auto;
 }
 .nyc-extra__msj_circle:hover {opacity: 0.6}
@@ -120,7 +166,6 @@ body {
 	width: 70px;
 	padding-top: 35px;
 }
-
 .nyc-extra__msj_txt {
 	color: white;
 	text-align: center;
@@ -150,33 +195,37 @@ body {
 	background-color: #1a3c99;
 	padding: 50px 0;
 }
-.nyc-footer__txt_form_navbar {
+.nyc-footer__navbar {
 	padding: 0;
 }
 .nyc-footer__txt {
-	/*margin-top: 60px;*/
-	color: white;
+	color: #FFF;
+}
+.nyc-footer__txt_form_h {
+	margin-top: 0;
 }
 .nyc-footer__txt_contact {
 	clear: both;
-	padding-top: 40px;
+	padding-top: 20px;
 }
-.nyc-footer__brand_img {
-	padding-top: 35px;
+.nyc-footer__rrss {
+	width: 70%;
+	padding-top: 20px;
 }
+.nyc-footer__rrss_icon:hover {opacity: 0.6}
 
 @media screen and (max-width: 500px) {
-	.nyc-footer__txt_form_navbar {
+	.nyc-footer__txt {
+		margin-top: 40px; 
+	}
+	.nyc-footer__navbar {
 		padding: 10px 15px;
 	}
-	.nyc-footer__txt_form_control {
+	.nyc-footer__navbar_control {
 		width: 70%;
 		border: none;
 	}
 	.nyc-footer__txt_contact {
 		padding-top: 0;
-	}
-	.nyc-footer__brand_img {
-		padding-top: 20px;
 	}
 }

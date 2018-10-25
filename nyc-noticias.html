@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title> Fundación Niño y Cáncer </title>
+	<title> Fundación Niño y Cáncer | Noticias </title>
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<!-- Optional theme -->
@@ -26,13 +26,13 @@
 			        <span class="icon-bar"></span>
 			        <span class="icon-bar"></span>
       			</button>
-      			<a class="navbar-brand"><img class="nyc-nav__logo_I img-responsive" src="assets/img/logo_pequeno_nc.png" alt="Logo Fundación Niño y Cáncer"> </a>
-      			<a class="navbar-brand"><img class="nyc-nav__logo_II img-responsive" src="assets/img/logo_letras_nc.png" alt="Fundación Niño y Cáncer"> </a>
+      			<a class="navbar-brand" href="nyc-index.html"><img class="nyc-nav__logo_I img-responsive" src="assets/img/logo_pequeno_nc.png" alt="Logo Fundación Niño y Cáncer"> </a>
+      			<a class="navbar-brand" href="nyc-index.html"><img class="nyc-nav__logo_II img-responsive" src="assets/img/logo_letras_nc.png" alt="Fundación Niño y Cáncer"> </a>
     		</div><!-- /.logo y hamburguesa -->
     		<!-- nav derecho -->
     		<div class="collapse navbar-collapse nyc-nav__menu" id="bs-example-navbar-collapse-1">
-      			<ul class="nav navbar-nav navbar-right">
-			        <li><a href="nyc.html">INICIO</a></li>
+      			<ul class="nav navbar-nav navbar-right nyc-nav__menu_right">
+			        <li><a href="nyc-index.html">INICIO</a></li>
 			        <li><a href="nyc-nosotros.html">NOSOTROS</a></li>
 			        <li><a href="nyc-noticias.html">NOTICIAS</a></li>
       			</ul>
@@ -42,56 +42,138 @@
 	<!-- NOTICIAS -->
 	<section class="nyc-noticias">
 		<div class="row nyc-noticias__background">
-			<!-- notas -->
+			<!-- NOTAS (col left)-->
 			<div class="container nyc-noticias__post col-xs-12 col-sm-12 col-md-8">
-				<h2 class="nyc-noticias__post_h"> A volar junto a Sky </h2>
-				<p class="nyc-noticias__post_p"> Los niños de la Fundación tuvieron una invitación muy especial por parte de la aerolínea. </p>
-				<ul class="nyc-noticias__post_fecha">
-					<li class="nyc-noticias__post_fecha_li"><img class="nyc-noticias__post_fecha_img" src="assets/img/icons8-calendario-64.png" alt="cal"></li> 
-					<li class="nyc-noticias__post_fecha_li"><h6><strong> 12 de octubre de 2018 </strong></h6></li>
-				</ul>
-				<img class="img-responsive nyc-noticias__post_img" src="assets/img/IMG_4888.jpg" alt="">
-				<div class="nyc-noticias__post_txt">
-					<p>Los más pequeños de la Fundación Niño y Cáncer vivieron una jornada muy especial gracias a la increible invitación de SKY.</p>
-					<p>El pasado miércoles 4 de Octubre fuimos a volar en su nuevo avión A320neoSky. Los más chicos pudieron conocer a los pilotos y hacer preguntas sobre su trabajo.</p>
-					<p>Sin duda, fue una experiencia diferente para los presentes. Acá un par de fotografías junto al CEO de SKY, Holger Paulmann y el resto de la tripulación.</p>
-					<!-- galería de fotos -->
-					<div class="row">
-					  <div class="col-xs-6 col-md-3">
-					    <a href="#" class="thumbnail">
-					      <img src="assets/img/img_4894.jpg" alt="foto 1">
-					    </a>
-					  </div>
-					  <div class="col-xs-6 col-md-3">
-					    <a href="#" class="thumbnail">
-					      <img src="assets/img/img_4896.jpg" alt="foto 2">
-					    </a>
-					  </div>
-					</div><!-- /.galería de fotos -->
+				<div class="nyc-noticias__post_head">	
+					<h3 class="nyc-noticias__post_head_h"> NOTICIAS </h3>
 				</div>
-			</div><!-- /.notas -->
-			<!-- columna "ver más" -->
-			<div class="container nyc-noticias__thumb col-xs-12 col-sm-12 col-md-4">
-				<div class="nyc-noticias__thumb_head">	
-					<h4 class="nyc-noticias__thumb_head_h"> VER MÁS </h4>
-				</div>
-				<!-- thumbnails post -->
-				<div class="nyc-thumb__post">
-					<img class="img-responsive nyc-thumb__post_img" src="assets/img/_DSC8340.jpg" alt="">
-					<h4 class="nyc-thumb__post_h"> Así fue cómo los niños vivieron su torneo de futbolito </h4>
-				</div>
-				<div class="nyc-thumb__post">
-					<img class="img-responsive nyc-thumb__post_img" src="assets/img/DSCN9241_800x588_.jpg" alt="">
-					<h4 class="nyc-thumb__post_h"> Tarallinata de amor y sonrisas: una jornada de gratitud </h4>
-				</div><!-- /.thumbnails post -->
-				<!-- donaciones -->
-				<div class="nyc-extra__msj">
-					<a href="#"><div class="nyc-extra__msj_circle">
-						<img class="img-responsive nyc-extra__msj_icon" src="assets/img/icons8-donation-64.png" alt="">	
+				<div class="nyc-noticias__post_txt"><!-- caja previsualización nota I -->
+					<!-- contenido post -->
+					<img class="img-responsive nyc-noticias__post_img" src="assets/img/IMG_4888.jpg" alt="foto 1">
+					<a href="#"><h2 class="nyc-noticias__post_txt_h"> A VOLAR JUNTO A SKY </h2></a>
+					<p class="nyc-noticias__post_txt_p"> Los niños de la Fundación tuvieron una invitación muy especial por parte de la aerolínea. El pasado miércoles 4 de Octubre fuimos a volar en su nuevo avión A320neoSky. Los más chicos pudieron conocer a los pilotos y hacer preguntas sobre su trabajo. </p> <!-- /.contenido post -->
+					<!-- íconos -->
+					<a href="#"><div class="nyc-noticias__post_rrss">
+						<img class="nyc-noticias__post_rrss_icon" src="assets/img/icons8-twitterpost-64.png" alt="">
+						<h6 class="nyc-noticias__post_rrss_h"> TWITTEAR </h6>
 					</div></a>
-					<h3 class="nyc-extra__msj_txt">¡Haz tus donaciones vía Webpay!</h3>
+					<a href="#"><div class="nyc-noticias__post_rrss">
+						<img class="nyc-noticias__post_rrss_icon" src="assets/img/icons8-facebook-like-64.png" alt="">
+						<h6 class="nyc-noticias__post_rrss_h"> ME GUSTA </h6>
+					</div></a>
+					<div class="nyc-noticias__post_detaiils_row">
+						<div class="nyc-noticias__post_details">
+							<img class="nyc-noticias__post_details_icon" src="assets/img/icons8-calendario-64.png" alt="cal">
+							<h6 class="nyc-noticias__post_details_h"><strong> 12 de octubre de 2018 </strong></h6>
+						</div>
+						<div class="nyc-noticias__post_details">
+							<img class="nyc-noticias__post_details_icon" src="assets/img/icons8-comments-64.png" alt="cal">
+							<h6 class="nyc-noticias__post_details_h"><strong> 0 </strong></h6>
+						</div>
+					</div><!-- /.íconos -->
+				</div><!-- /.caja previsualización nota I -->
+				<div class="nyc-noticias__post_txt"><!-- caja previsualización nota II -->
+					<!-- contenido post -->
+					<img class="img-responsive nyc-noticias__post_img" src="assets/img/_DSC8340.jpg" alt="foto 2">
+					<a href="#"><h2 class="nyc-noticias__post_txt_h"> TORNEO DE FUTBOLITO 2018 </h2></a>
+					<p class="nyc-noticias__post_txt_p"> El domingo 26 de septiembre se realizó el “XII Torneo Interhospitales de Futbolito y Porristas” en el estadio del Banco Central. Este torneo es organizado por la Fundación Niño y Cáncer, participaron más de un centenar de niños junto a sus familias. </p> <!-- /.contenido post -->
+					<!-- íconos -->
+					<a href="#"><div class="nyc-noticias__post_rrss">
+						<img class="nyc-noticias__post_rrss_icon" src="assets/img/icons8-twitterpost-64.png" alt="">
+						<h6 class="nyc-noticias__post_rrss_h"> TWITTEAR </h6>
+					</div></a>
+					<a href="#"><div class="nyc-noticias__post_rrss">
+						<img class="nyc-noticias__post_rrss_icon" src="assets/img/icons8-facebook-like-64.png" alt="">
+						<h6 class="nyc-noticias__post_rrss_h"> ME GUSTA </h6>
+					</div></a>
+					<div class="nyc-noticias__post_detaiils_row">
+						<div class="nyc-noticias__post_details">
+							<img class="nyc-noticias__post_details_icon" src="assets/img/icons8-calendario-64.png" alt="cal">
+							<h6 class="nyc-noticias__post_details_h"><strong> 12 de octubre de 2018 </strong></h6>
+						</div>
+						<div class="nyc-noticias__post_details">
+							<img class="nyc-noticias__post_details_icon" src="assets/img/icons8-comments-64.png" alt="cal">
+							<h6 class="nyc-noticias__post_details_h"><strong> 0 </strong></h6>
+						</div>
+					</div><!-- /.íconos -->
+				</div><!-- /.caja previsualización nota II -->
+				<div class="nyc-noticias__post_txt"><!-- caja previsualización nota III -->
+					<!-- contenido post -->
+					<img class="img-responsive nyc-noticias__post_img" src="assets/img/DSCN9241_800x588_.jpg" alt="foto 3">
+					<a href="#"><h2 class="nyc-noticias__post_txt_h"> TARALLINATA DE AMOR Y SONRISAS </h2></a>
+					<p class="nyc-noticias__post_txt_p"> Con gran éxito se desarrolló nuestra Tallarinata de Amor y Sonrisas el 30 de agosto en el Estadio del Banco Central. Agradecemos a todos los asistentes que compartieron, donaron dinero y tiempo a esta noble causa. </p> <!-- /.contenido post -->
+					<!-- íconos -->
+					<a href="#"><div class="nyc-noticias__post_rrss">
+						<img class="nyc-noticias__post_rrss_icon" src="assets/img/icons8-twitterpost-64.png" alt="">
+						<h6 class="nyc-noticias__post_rrss_h"> TWITTEAR </h6>
+					</div></a>
+					<a href="#"><div class="nyc-noticias__post_rrss">
+						<img class="nyc-noticias__post_rrss_icon" src="assets/img/icons8-facebook-like-64.png" alt="">
+						<h6 class="nyc-noticias__post_rrss_h"> ME GUSTA </h6>
+					</div></a>
+					<div class="nyc-noticias__post_detaiils_row">
+						<div class="nyc-noticias__post_details">
+							<img class="nyc-noticias__post_details_icon" src="assets/img/icons8-calendario-64.png" alt="cal">
+							<h6 class="nyc-noticias__post_details_h"><strong> 12 de octubre de 2018 </strong></h6>
+						</div>
+						<div class="nyc-noticias__post_details">
+							<img class="nyc-noticias__post_details_icon" src="assets/img/icons8-comments-64.png" alt="cal">
+							<h6 class="nyc-noticias__post_details_h"><strong> 0 </strong></h6>
+						</div>
+					</div><!-- /.íconos -->
+				</div><!-- /.caja previsualización nota III -->
+				<!-- páginas anteriores -->
+				<nav aria-label="Page navigation" class="nyc-noticia__pnav">
+					<ul class="pagination">
+				    	<li><a href="#" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a></li>
+					    <li><a href="#">1</a></li>
+					    <li><a href="#">2</a></li>
+					    <li><a href="#">3</a></li>
+					    <li><a href="#" aria-label="Next"><span aria-hidden="true">&raquo;</span></a></li>
+				  	</ul>
+				</nav><!-- /.páginas anteriores -->
+			</div><!-- /.NOTAS (col left)-->
+			<!-- INFO EXTRA (col right) -->
+			<div class="container nyc-right col-xs-12 col-sm-12 col-md-4">
+				<div class="nyc-right__head">	
+					<h3 class="nyc-right__head_h"> VER MÁS </h3>
+				</div>
+				<!-- post anteriores -->
+				<div class="nyc-right__post">
+					<h4 class="nyc-right__post_h"> ENTRADAS RECIENTES </h4>
+					<a href="#"><p class="nyc-right__post_p"> Manual para padres de niños oncológicos </p></a>
+					<a href="#"><p class="nyc-right__post_p"> "Encuentro con la Montaña": Así fue la experiencia en la nieve </p></a>
+					<a href="#"><p class="nyc-right__post_p"> Finalizó el proceso de postulación a Becas de Estudio 2018 </p></a>
+					<a href="#"><p class="nyc-right__post_p"> Carta de agradecimiento a nuestros socios y colaboradores </p></a>
+					<a href="#"><p class="nyc-right__post_p"> Conoce los requisitos para postular a los departamentos de acogida </p></a>
+					<a href="#"><p class="nyc-right__post_p"> Agradecimientos del grupo de familias "Aprendiendo a revivir" </p></a>
+					<a href="#"><p class="nyc-right__post_p"> Ex paciente publica su libro: "Con tu apoyo, yo le gano al cáncer" </p></a>
+				</div><!-- /.post anteriores -->
+				<!-- buscador -->
+				<div class="nyc-right__search">
+					<h4 class="nyc-right__search_h"> ENCUENTRA LO QUE NECESITAS </h4>
+					<form class="img-responsive navbar-form navbar-left nyc-right__search_navbar" role="search">
+						 <div class="form-group">
+					 		<input type="text" class="form-control nyc-right__search_navbar_control" placeholder="">
+					 	</div>
+					 	<button type="submit" class="btn btn-default">Buscar</button>
+					</form>
+				</div><!-- /.buscador -->
+				<!-- donaciones -->
+				<div class="nyc-right__msj">
+					<a href="#"><div class="nyc-right__msj_circle">
+						<img class="img-responsive nyc-right__msj_icon" src="assets/img/icons8-donation-64.png" alt="">	
+					</div></a>
+					<h3 class="nyc-right__msj_txt">¡Haz tus donaciones vía Webpay!</h3>
 				</div><!-- /.donaciones -->
-			</div><!-- /.columna "ver más" -->
+				<!-- voluntariado -->
+				<div class="nyc-right__msj">
+					<a href="#"><div class="nyc-right__msj_circle">
+					<img class="img-responsive nyc-right__msj_icon" src="assets/img/icons8-welfare-64.png" alt="">	
+					</div></a>
+					<h3 class="nyc-right__msj_txt">¡Súmate a nuestro voluntariado!</h3>
+				</div><!-- /.voluntariado -->
+			</div><!-- /.INFO EXTRA (col right) -->
 		</div>
 	</section><!-- /.NOTICIAS -->
 	<!-- FOOTER -->
@@ -106,10 +188,19 @@
 			<!-- form y contacto -->
 			<div class="nyc-footer__txt col-xs-12 col-sm-12 col-md-4">
 				<div class="nyc-footer__txt_form">
-					<h4 class="nyc-footer__txt_form_h"> SUSCRÍBETE A NUESTRO NEWSLETTER </h4>
-					<form class="navbar-form navbar-left nyc-footer__txt_form_navbar" role="search">
-						 <div class="form-group">
-					 		<input type="text" class="form-control nyc-footer__txt_form_control" placeholder="Ingresa tu mail">
+					<h4 class="nyc-footer__txt_form_h"> ENVÍA TUS DUDAS Y TE CONTACTAMOS </h4>
+					<form class="img-responsive navbar-form navbar-left nyc-footer__navbar" role="search">
+						<div class="form-group">
+					 		<input type="text" class="form-control" placeholder="Nombre">
+					 	</div>
+					 	<div class="form-group">
+					 		<input type="text" class="form-control" placeholder="Teléfono">
+					 	</div>
+					 	<div class="form-group">
+					 		<input type="text" class="form-control" placeholder="Mail">
+					 	</div>
+					 	<div class="form-group">
+					 		<input type="text" class="form-control" placeholder="¿Qué necesitas?">
 					 	</div>
 					 	<button type="submit" class="btn btn-default">Enviar</button>
 					</form>
@@ -122,8 +213,10 @@
 					<p class="nyc-footer__txt_contact_p"> <strong>RUT:</strong> 72.169.900.5. </p>
 					<p class="nyc-footer__txt_contact_p"> <strong>Mail:</strong> fundacion@ninoycancer.cl. </p>
 				</div>
-				<div class="nyc-footer__brand">
-					<img class="nyc-footer__brand_img" src="assets/img/logo_pequeno_nc_white.png" alt="">
+				<div class="nyc-footer__rrss">
+					<a href="#"><img class="nyc-footer__rrss_icon" src="assets/img/icons8-facebook-64.png" alt="FB"></a>
+					<a href="#"><img class="nyc-footer__rrss_icon" src="assets/img/icons8-twitter-64.png" alt="TW"></a>
+					<a href="#"><img class="nyc-footer__rrss_icon" src="assets/img/icons8-instagram-64.png" alt="IG"></a>
 				</div>
 			</div><!-- /.form y contacto -->
 		</footer>
